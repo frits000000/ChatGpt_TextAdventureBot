@@ -112,6 +112,7 @@ def capture_and_convert():
     # Capture audio from the microphone
     with sr.Microphone() as source:
         while True:
+            print("Press T to speak or y to type")
             if keyboard.is_pressed('t'):
                 print("Listening... Speak something:")
                 recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
