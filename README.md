@@ -20,6 +20,6 @@ The Script will then read the message of chat gpt and read it to you using tts.
 
 
 ## Info on the personalities.txt
-in this file is the first propt that will be inserted at your first prompt to chat gpt to make sure he behaves like we want it to. You can alter this to you own likings but there is one thing you need to keep in there.
+within this file is the first prompt that will be inserted at your first prompt to chat gpt to make sure he behaves like we want it to. You can alter this to you own likings but there is one thing you need to keep in there.
 
 In the file i tell the ai to add at the bottom of every message the health and the inventory of the user. You can alter this a bit but it should output it the way i intended it, otherwise the health/inventory tracking wont work.
